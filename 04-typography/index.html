@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        @theme {
+        --font-display: "Oswald", "sans-serif";
+        --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
+        --font-display--font-variation-settings: "opsz" 32; 
+}
+      }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
-
+    <div class="font-sans">Tailwind is awsome</div>
+    <div class="font-serif">Tailwind is awsome</div>
+    <div class="font-mono">Tailwind is awsome</div>
     <!-- Font Size -->
 
     <!-- Font Weight -->
